@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>macrosol</title>
+    <!-- style sheet link -->
+    <link rel="stylesheet" href="../style.css">
+     <!-- logo -->
+     <link rel="icon" type="image/x-icon" href="../Assets/images/title logo.png">
+    <!-- font style link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+    <!--font awesome cdnlink  -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"> -->
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <!-- emailjs links -->
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script src="../index.js"></script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("XR7uSbUtT0bYpz_yO");
+   })();
+</script>
+
+</head>
+<body>
+    <main>
+        <!-- header start -->
+        <section class="contact-header" >
+            <div class="navigation">
+            <nav>
+                <a href="./index.html"><img src="../Assets/images/logo better car japan.jpeg" alt="company logo"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="./about.html">About Us</a></li>
+                        <li><a href="../pucblic/product.html">Product</a></li>
+                        <li><a href="../pucblic/contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+            </nav>
+            </div>
+            <h1>Contact US</h1>
+            <h2>
+                <a href="" class="typewrite" data-period="2000" data-type='[ "How May I Help you.", "For Support & help", "Email us", "sales@macrosol.net", "Live Chat", "Whatsapp" ]'>
+                  <span class="wrap"></span>
+                </a>
+              </h2>
+            
+        </section>
+
+            <!-- location start -->
+            <section class="location">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7234.256475986273!2d67.06726058935502!3d24.96175123814172!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb3410275d48e4d%3A0x4feb1797629bab2b!2sSupreme%20Avenue!5e0!3m2!1sen!2s!4v1691764239668!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            </section>
+            <!-- location end -->
+            <!-- form start -->
+            <section class="contact-us">
+                <div class="row">
+                    <div class="contact-col">
+                        <div>
+                            <i class="fa-solid fa-location"></i>
+                            <span>
+                                <h5> abc road</h5>
+                                <p>abc street </p>
+                            </span>
+                        </div>
+                        <div>
+                            <a href="tel:+923330216100"><i class="fa-solid fa-phone"></i></a>
+                            <span>
+                                <h5>Phone Number</h5>
+                                <p ><a href="tel:+92334-3868194" style="color: black;" >0334-3868194
+                                </a> </p>
+                            </span>
+                        </div>
+                        <div>
+                            <a href="mailto:sales@abc.net"><i class="fa-solid fa-envelope"></i></a>
+                            <span>
+                                <h5>Email Us</h5>
+                                <p><a href="mailto:sales@abc.net" style="color: black;" >sales@abc.net</a></p>
+                            </span>
+                        </div>
+                        <div>
+                            <a href="https://wa.me/+923330216100"><i class="fa-brands fa-whatsapp"></i></a>
+                            <span>
+                                <h5>Whatsapp Number:</h5>
+                                <p><a href="https://wa.me/+923022319108" style="color: black;">+92 302 2319108</a></p>
+                            </span>
+                        </div>
+                        <div>
+                            <i class="fa-brands fa-rocketchat fa-beat"></i>
+                            <span>
+                                <h5>Live Chat</h5>
+                                <p>click bottom Right corner</p>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="contact-col">
+                        <h1>Contact Us</h1>
+                        <input type="text" id="name" name="name" placeholder="Your name" required>
+                        <input type="email" id="email" name="email" placeholder="Your email" required>
+                        <textarea id="message" name="message" placeholder="Your message" required></textarea>
+                        <input type="submit" name="submit" class="edt-btn" onclick="sendMail()" value="Send Message">
+                    </div>
+                </div>
+            </section>
+            <section class="abt-process">
+                <div class="container">
+                    <h1>We are Here To help You</h1>
+                    <p>“If you wish to receive detailed catalogues / technical assistance / prices please feel free to 
+                        contact us by mail or Phone and we would be more than happy to assist you with your 
+                        requirements. We look forward to a healthy mutually beneficial business relationship in 
+                        the future.”</p>
+                </div>
+            </section>
+            <!-- form end -->
+            <!-- footer section start -->
+<div class="line"></div>
+<footer>
+    <div class="container">
+        <div class="wrapper">
+            <div class="footer-widget">
+                <a href=""#>
+                    <img class="fimg" src="../Assets/images/logo better car japan.jpeg" height="150px" width="200px" alt="">
+                </a>
+                <!-- <p class="desc">
+                    Here Commitment Matters!
+                </p> -->
+                <ul class="socials">
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://wa.me/+923022319108">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                    </li><li>
+                        <a href="#">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </li><li>
+                        <a href="#">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-widget">
+                <h6>Pages</h6>
+                <ul class="links">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../public/about.html">About Us</a></li>
+                    <li><a href="../public/products.html">Products</a></li>
+                    <li><a href="../public/contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-widget">
+                <h6>Services</h6>
+                <ul class="links">
+                    <li><a href="#">Bussiness Solutions</a></li>
+                    <li><a href="#">Online Products Hub</a></li>
+                    <li><a href="#">Quick Delivery</a></li>
+                    <li><a href="./pucblic/contact.html">For Query</a></li>
+                </ul>
+            </div><div class="footer-widget">
+                <h6>Supports</h6>
+                <ul class="links">
+                    <li><a href="#">live chat</a></li>
+                    <li><a href="https://wa.me/+923022319108">whatsapp</a></li>
+                    <li><a href="tel:+923343868194">call</a></li>
+                    <li><a href="mailto:sales@macrosol.net">for info</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright-wrapper">
+            <p>copyright© macrosol</p>
+        </div>
+    </div> 
+</footer>
+
+<!-- footer section end -->
+
+
+
+
+
+
+
+
+
+        </main>
+         <!-- text typing script   -->
+    <script>
+        var TxtType = function(el, toRotate, period) {
+        this.toRotate = toRotate;
+        this.el = el;
+        this.loopNum = 0;
+        this.period = parseInt(period, 10) || 2000;
+        this.txt = '';
+        this.tick();
+        this.isDeleting = false;
+    };
+
+    TxtType.prototype.tick = function() {
+        var i = this.loopNum % this.toRotate.length;
+        var fullTxt = this.toRotate[i];
+
+        if (this.isDeleting) {
+        this.txt = fullTxt.substring(0, this.txt.length - 1);
+        } else {
+        this.txt = fullTxt.substring(0, this.txt.length + 1);
+        }
+
+        this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+
+        var that = this;
+        var delta = 200 - Math.random() * 100;
+
+        if (this.isDeleting) { delta /= 2; }
+
+        if (!this.isDeleting && this.txt === fullTxt) {
+        delta = this.period;
+        this.isDeleting = true;
+        } else if (this.isDeleting && this.txt === '') {
+        this.isDeleting = false;
+        this.loopNum++;
+        delta = 500;
+        }
+
+        setTimeout(function() {
+        that.tick();
+        }, delta);
+    };
+
+    window.onload = function() {
+        var elements = document.getElementsByClassName('typewrite');
+        for (var i=0; i<elements.length; i++) {
+            var toRotate = elements[i].getAttribute('data-type');
+            var period = elements[i].getAttribute('data-period');
+            if (toRotate) {
+              new TxtType(elements[i], JSON.parse(toRotate), period);
+            }
+        }
+        // INJECT CSS
+        var css = document.createElement("style");
+        css.type = "text/css";
+        css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
+        document.body.appendChild(css);
+    };
+    </script>
+
+<!--  -->
+    <!-- header  -->
+    <script> 
+        let header = document.querySelector('.navigation');
+    
+            window.addEventListener('scroll', () => {
+                header.classList.toggle('shadow', window.scrollY > 0);
+            });</script>
+
+        <!-- responsive javascript start -->
+        <script>
+    
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+        <!-- responsive javascript end -->
+        <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/64d27a72cc26a871b02e126d/1h7b2skd4';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+    </script>
+    <!--End of Tawk.to Script-->
+    
+    
+    </body>
+    </html>
